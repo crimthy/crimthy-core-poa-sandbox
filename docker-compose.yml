@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  rust_dev_1:
+    build: .
+    image: rostegg/rust-blockchain
+    container_name: rust-blockchain-dev-1
+

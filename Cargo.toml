@@ -1,0 +1,9 @@
+[package]
+name = "crimthy-sandbox-blockchain"
+version = "0.1.0"
+authors = ["rostegg <rostik.nikolaenko@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sha1 = { version = "0.6.0", features = ["std"] }
+bincode = "1.0.0"
